@@ -16,15 +16,12 @@ oba_set.sort()
 obshie = [x for x in a if x in b]
 obshie.sort()
 
-hz =  [i for i in a if a.count(i) == 1] + [j for j in b if b.count(j) == 1]
+hz =  [i for j in b if b.count(j) == 1]
 hz.sort()
 
 minmax = [a[0], a[-1], b[0], b[-1]]
 
 
-print(oba_set)
-print()
-print(obshie)
 print()
 print(hz)
 print()
